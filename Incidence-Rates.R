@@ -131,7 +131,7 @@ AFibcase <- read.csv("20241028_Osteoporosis_AFibcase.csv")
 AFibcase_sens <- read.csv("20241028_Osteoporosis_AFibcaseSens.csv")
 
 # Incidence Rates (IRs)
-source("R:/Students/Jessy/Osteoporosis Treatments/Datasets/case/functions.R")
+source("R:/Students/Jessy/Osteoporosis Treatments/Datasets/case/IR functions.R")
 
 # stratified IR tables
 strataIR_Table(AFibcase_sens, exp, "ExpCensor7")
